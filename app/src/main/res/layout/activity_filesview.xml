@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/row_selector"
+    android:layout_height="match_parent"
+    tools:context=".Filesview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/deletell"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <EditText
+                    android:id="@+id/deletefilename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:backgroundTint="@color/angelina"
+                    android:textColor="@color/angelina"
+                    android:cursorVisible="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="Enter filename for delete" />
+                <Button
+                    android:id="@+id/deletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/angelina"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toEndOf="@+id/deletefilename"
+                    android:text="delete file" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deletell"
+            android:layout_marginTop="22dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:padding="12dp"
+                    android:id="@+id/filedescribe"
+                    android:fontFamily="@font/lucida_dark"
+                    android:text=" CLICK ANY ITEM TO VIEW "
+                    android:textColor="@color/yellow"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/lsitview12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/just_border" />
+        </LinearLayout>
+</RelativeLayout>

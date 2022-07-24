@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TREATMENTS FOR HEART-DISEASE"
+            android:layout_marginTop="156dp"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:textColor="@color/heading"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="199dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13sp"
+                    android:background="@drawable/border"
+                    android:text="STUNT"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/just_border"
+                android:text=" A stent is a wire mesh tube surgeons insert into the artery to keep it open after angioplasty."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:background="@drawable/border"
+                    android:text="ANGIOPLASTY"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/just_border"
+                android:paddingStart="9dp"
+                android:text="An angioplasty opens the blocked artery by using a balloon or by removing the plaque buildup. It’s important to note that healthcare professionals rarely use angioplasty alone anymore."
+                android:textColor="@color/contentcolor"
+                android:textSize="19dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:background="@drawable/border"
+                    android:text="HEART BY PASS SURGERY"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/just_border"
+                android:paddingStart="5dp"
+                android:text="In bypass surgery, your doctor reroutes the blood around the blockage."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:background="@drawable/border"
+                    android:text="HEART VALVE SURGERY"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/just_border"
+                android:paddingStart="5dp"
+                android:text="In valve repair or replacement surgery, surgeons repair or replace leaky valves to help the heart pump."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="770dp"
+            android:background="@drawable/border"
+            android:textColor="@color/heading"
+            android:textAllCaps="true"
+            android:fontFamily="monospace"
+            android:textSize="19dp"
+            android:text="Commonly Prescribed medications to treat your heart attack:"/>
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="825dp"
+            android:layout_marginBottom="72dp"
+
+            android:background="@drawable/just_border"
+            android:lineSpacingExtra="2dp"
+            android:paddingStart="5sp"
+            android:text="* Aspirin\n* Antiplatelet and anticoagulants, also known as blood thinners\n* nitroglycerin\n* beta-blockers"
+            android:textColor="@color/purple_700"
+            android:textSize="19dp" />
+    </RelativeLayout>
+</ScrollView>

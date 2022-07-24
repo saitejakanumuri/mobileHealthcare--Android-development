@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="TREATMENTS"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:contentDescription="drugallergyimage"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22sp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="WHAT IS COMMON COLD?"
+            android:padding="3dp"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:id="@+id/drugtext"
+            android:padding="3dp"
+            android:text="The common cold is actually a viral infection in your upper respiratory tract. A cold can be caused by more than 200 virusesTrusted Source. The most common are rhinoviruses.\n\n
+
+These viruses are easily spread from person to person or surface to surface. Many of these viruses can live on surfaces for hours, even days.\n\n
+
+While the common cold may indeed be familiar, there are some things to know about this ailment that can help you feel better, avoid future colds, or even prevent the spread of the virus to other people. Read on to find out more. "
+            android:textColor="#FF0F1708" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/drugtext"
+            android:layout_marginTop="-109dp"
+            android:src="@drawable/common_cold" />
+
+        <TextView
+            android:id="@+id/drugquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-80dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="SYMPTOMS"
+            android:textAllCaps="true"
+            android:textColor="@color/heading"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/symptons_matter"
+            android:layout_below="@+id/drugquestion"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:paddingStart="3dp"
+            android:text="NASAL SYMPTOMS\n\n* Congestion\n* Sinus Pressure\n* Runny nose\n* Stuffy nose\n* Lost of smell,taste\n* Sneezing\n* Postnasal drip or drainage in back of throat.\n\nHEAD SYMPTOMS\n\n* Water Eyes\n* Headache\n* Cough\n* Sore throat\n\nBODY SYMPTOMS\n\n* Fatigue\n* Body aches\n* Chest discomfort\n* Low grade fever."
+            android:textColor="#FF0F1708" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

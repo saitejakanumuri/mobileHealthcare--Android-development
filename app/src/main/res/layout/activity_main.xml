@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-223dp"
+        android:src="@drawable/gec_img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:text="SR Gudlavalleru engineering college"
+        android:textSize="22dp"
+        android:fontFamily="@font/impact"
+        android:layout_marginTop="110dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/border"
+        android:contentDescription="@string/app_name"
+        android:dropDownSelector="@color/teal_200"
+        android:minWidth="50dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="serif"
+        android:padding="23dp"
+        android:text="Select your disease:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="333dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingExtra="6dp"
+        android:padding="5dp"
+        android:text="@string/consultant"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <include
+        layout="@layout/trademark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>

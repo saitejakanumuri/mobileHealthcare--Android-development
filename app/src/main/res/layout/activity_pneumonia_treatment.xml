@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:id="@+id/clg_name"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/hq"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="21dp"
+            android:textColor="@color/purple_700"
+            android:background="@drawable/lineborder"
+            android:layout_below="@+id/clg_name"
+            android:text="General types of medicines: "/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/used_medicines"
+            android:layout_below="@+id/hq"
+            android:layout_marginTop="20dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13sp"
+                    android:background="@drawable/border"
+                    android:padding="9dp"
+                    android:text="FOR PNEUMONIA"
+                    android:textColor="@color/heading"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/just_border"
+                android:padding="12dp"
+                android:text="What you’re prescribed will depend on the specific cause of your pneumonia.\n\ * Oral antibiotics can treat most cases of bacterial pneumonia.\n\nPrevnar 13 and Pneumovax 23 vaccines should be vaccinated "
+                android:textColor="@color/contentcolor"
+                android:textSize="19dp" />
+
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:background="@drawable/border"
+                    android:padding="9dp"
+                    android:text="GENERAL MEDICINES"
+                    android:textColor="@color/heading"
+                    android:textSize="19dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="456dp"
+            android:layout_marginBottom="73dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/used_medicines"
+            android:layout_marginTop="10dp"
+            android:scrollbars="horizontal|vertical">
+
+            <TableLayout
+                android:id="@+id/tlGridTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/used_medicines"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="73dp"
+                android:background="@drawable/just_border"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginEnd="12dp"
+                        android:padding="12dp"
+                        android:text="DRUG NAME"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="12sp"
+                        android:padding="12dp"
+
+                        android:text="DRUG STRENGTH"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+
+                        android:text="TYPE"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text=" 	Clarithromycin M.R tabs"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text=" 	Each modified release tab contains;\n clarithromycin-500mg "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text=" 	Dexibuprofen Tablet "
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="200mg/300mg/400mg"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Acebrophylline capsules 100mg "
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Each capsule contains; \nacebrophylline- 100mg"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="DOXYCYCLINE "
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="100mg/ml"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Doxofylline tablets , Syrup"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="  	i) Each tablet contains; doxofylline-200mg, 400mg\n ii) Each ml contains; doxofylline-20mg"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET,SYRUP"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</ScrollView>

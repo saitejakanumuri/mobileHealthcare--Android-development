@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="TREATMENTS"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img"
+            android:contentDescription="drugallergyimage"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22sp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:fontFamily="monospace"
+            android:text="WHAT IS HYPERTHYROIDISM?"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:id="@+id/drugtext"
+            android:text="Hyperthyroidism occurs when your thyroid gland is overproducing thyroid hormones. Several health conditions can lead to hyperthyroidism.\n\n
+The thyroid is a small, butterfly-shaped gland located at the front of your neck.There are two primary hormones that control how your cells use energy. Your thyroid gland regulates your metabolism through the release of these hormones."
+            android:textColor="#FF0F1708" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/drugtext"
+            android:id="@+id/hyperthyroid_image"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/hyperthyroid_image" />
+        <TextView
+            android:id="@+id/drugquestion"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@+id/hyperthyroid_image"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="WHAT ARE causes of THYROIDISM?"
+            android:textAllCaps="true"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/drugquestion"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:id="@+id/drugquestionAns"
+            android:paddingStart="3dp"
+            android:text="* Excess iodine. \n* Thyroiditis (inflammation of the thyroid).\n* Benign thyroid nodules.\n* Toxic thyroid nodules (toxic adenoma).\n* Tumors of the ovaries or testes.\n* Large amounts of T4 in the blood. "
+            android:textColor="#FF0F1708" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/drugquestionAns"
+            android:layout_marginTop="7dp"
+            android:text="SYMPTOMS"
+            android:textColor="#11209F"
+            android:id="@+id/symptons_hyperthyroidH"
+            android:background="@drawable/border"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_hyperthyroidH"
+            android:layout_marginTop="6sp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="5dp"
+            android:id="@+id/symptons_hyperthyroidAns"
+            android:paddingStart="5dp"
+            android:text="* Rapid or Irregular heartbeat\n* Getting easily overheated.\n* Hand tremors, muscle weakness\n* Frequent Bowel movements"
+            android:textColor="#FF0F1708" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/symptons_hyperthyroidAns"
+            android:fontFamily="monospace"
+            android:text="tests for diagnosing hyperthyroidsm?"
+            android:background="@drawable/border"
+            android:id="@+id/diagnosing_hyperthyroid"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:textColor="@color/heading"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/diagnosing_hyperthyroid"
+            android:textColor="@color/contentcolor"
+            android:lineSpacingExtra="2dp"
+            android:fontFamily="monospace"
+            android:background="@drawable/just_border"
+            android:paddingStart="8dp"
+            android:text="* T4, free T4, and T3 level test.\n* Thyroid-stimulating hormone (TSH) level test.\n* Thyroid scan (Radioactive iodine uptake scan). \n* Ultrasound of thyroid.\n* CT or MRI scans."/>
+    </RelativeLayout>
+</ScrollView>

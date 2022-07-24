@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mobile HealthCare</string>
+    <string name="string10">1.Developing a heart-healthy diet\n 2.Increasing physical activity\n 3.Reaching an optimal weight\n 4.Managing stress</string>
+    <string name="string11">1. Drink vitamin C rich liquids\n 2. Take Steam\n 3. Avoid cold food\n 4. Keep fever in check</string>
+    <string name="string12">1. Use neem in water while bathing\n 2. Consume neem leaves\n 3. Take vaccine\n 4. Avoid public places</string>
+    <string name="string13">1. Drink plenty of water.\n 2. Increase vitamin C intake.\n 3. Drink cranberry juice.\n 4. Take probiotics</string>
+    <string name="string14">1. Lie down flat and raise the legs\n\t\t high.\n 2. Use ointments.\n 3. Use vein compression.\n 4. Don\'t stand still for long</string>
+    <string name="string15">1. Avoid open cuts.\n 2. Wear PPE(Personal Protective \n\t\t\t\t\tEquipment) if possible.\n 3. Consult doctor.\n 4. Follow up.</string>
+    <string name="string16">1. Eat high calorie vegetables.\n 2. Antibiotic therapy.\n 3. Consult doctor.\n 4. Medication.</string>
+    <string name="string17">1. Meditation.\n 2. Reduce stress.\n 3. Use poloroid glasses in sun.\n 4. Consult doctor.</string>
+    <string name="string18">1. Drink plenty of water.\n 2. Consume milk thistle.\n 3. Eat fruits and high fiberous food.\n 4. Medication.</string>
+    <string name="string2">1. Stop irritation.\n 2. consult hospital.\n 3. stop taking drugs.\n</string>
+    <string name="string19">1. Drink papaya leaf juice.\n 2. Avoid fatty spicy food.\n 3. Keep mosquitos away.\n 4. Keep hydrated.</string>
+    <string name="string20">1. Call ambulance.\n 2. Chew or swallow aspirin.\n 3. Keep calm.\n</string>
+    <string name="string21">1. Consult doctor.\n 2. Medication.\n 3. Take rest.\n 4. Follow up.\n</string>
+    <string name="string22">1. Exercise.\n 2. Use hot and cold therapy.\n 3. Try Acupunture.\n 4. Massage.\n</string>
+    <string name="string23">1. Cover mouth using mask.\n 2. Consult doctor.\n 3. Medication.\n 4. Take rest.</string>
+    <string name="string3">1. Avoid oily food.\n 2. Avoid non-veg food.\n</string>
+    <string name="string4">1. Apply calamine.\n 2. Apply area with bandage.\n 3. Use ice to compress itching.\n</string>
+    <string name="string5">1. Reduce stress.\n 2. Do exercises.\n 3. Eat healthy.\n 4. Get proper sleep.</string>
+    <string name="string6">1. Wash hands with warm soapy\n\t\t water.\n 2. Stop bleeding using pressure.\n 3. Consult doctor.\n 4. Salt baths.\n</string>
+    <string name="string7">1. Consult nearest hospital.\n 2. Wash hands thoroughly.\n 3. Avoid fatty spicy foods.\n 4. Take medications.</string>
+    <string name="string8">1. Bath twice a day.\n 2. Avoid fatty spicy foods.\n 3. Drink plenty of water.\n 4. Avoid too many products.\n</string>
+    <string name="string9">1. Have a balanced diet.\n 2. Do some exercises.\n 3. Consult doctor.\n 4. Follow up with the doctor.</string>
+    <string name="consultant"><i><b>For Emergency-contact:</b></i>\nK.Siddappa\n Physician and Cardiologist\n Ph : 012345 67891\n</string>
+    <string name="what_is_hypertension">\n\t\t\t\tNarrow blood vessels, also known as arteries, create more resistance for blood flow. The narrower your arteries are, the more resistance there is, and the higher your blood pressure will be. Over the long term, the increased pressure can cause health issues, including heart disease.\n\n\t\t\t\tUsually, you don’t notice any symptoms. But even without symptoms, high blood pressure can cause damage to your blood vessels and organs, especially the brain, heart, eyes, and kidneys.\n</string>
+    <string name="symptons_hypertension"><b>Symptoms of severe hypertension can include:</b>\n\n1.flushing\n2.blood spots in the eyes (subconjunctival hemorrhage)\n3.dizziness</string>
+    <string name="drug_allergy">A drug allergy is an allergic reaction to a medication. With an allergic reaction, your immune system, which fights infection and disease, reacts to the drug. This reaction can cause symptoms such as rash, fever, and trouble breathing.</string>
+    <string name="drugsthatarealllergic">\tcertain drugs are more allergic some are:\n\n Antibiotics: pencilin drugs\n Aspirine\n Anti-inflammatory medications\n anticonvulsants\n chemotherapy drugs etc..</string>
+    <string name="string222">More than just the cause of “really bad headaches,”\nThe most common categories of migraine headaches (or attacks) are episodic versus chronic, and then those without aura and those with aura.</string>
+</resources>

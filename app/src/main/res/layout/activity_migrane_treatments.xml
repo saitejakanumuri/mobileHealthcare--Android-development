@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="183dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13sp"
+                    android:background="@drawable/border"
+                    android:text="MIGRANE PREVENTION"
+                    android:textColor="@color/heading"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/just_border"
+                android:padding="12dp"
+                android:text="* Learn the foods, smells, and situations that trigger your migraine attacks and avoid those things when possible.\n
+\n* Stay hydrated. Dehydration can lead to both dizziness and headaches.\n\n
+\n* Avoid skipping meals when possible.\n
+\n* Focus on quality sleep. A good night’s sleep is important for overall health.\n
+\n* Quit smoking.\n
+\n* Make it a priority to reduce stress in your life.\n
+\n* Invest time and energy in developing relaxation skills.\n
+\n* Exercise regularly. Exercise has been linked to lowered stress levels."
+                android:textColor="@color/contentcolor"
+                android:textSize="19dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:background="@drawable/border"
+                    android:text="HOME REMEDIES"
+                    android:textColor="@color/heading"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+
+                android:background="@drawable/just_border"
+                android:text="* Lie down in a quiet, darkroom.\n
+\n* Massage your scalp or temples.\n\n* Place a cold cloth over your forehead or behind your neck.\n"
+                android:textColor="@color/contentcolor"
+                android:textSize="19dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:background="@drawable/border"
+                    android:text="GENERAL MEDICINES ARE"
+
+                    android:textColor="@color/heading"
+                    android:textSize="19dp" />
+            </TableRow>
+        </TableLayout>
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="456dp"
+            android:layout_below="@+id/table"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="73dp"
+            android:scrollbars="horizontal|vertical">
+
+            <TableLayout
+                android:id="@+id/tlGridTable"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="73dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/just_border"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="DRUG NAME"
+                        android:layout_marginEnd="12dp"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:padding="12dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_marginEnd="12sp"
+                        android:padding="12dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="DRUG STRENGTH"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:padding="12dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="TYPE"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Eletriptan Hydrobromide Tablets 20mg/40mg"
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Each uncoated tablet contains; \neletriptan hydrochloride eq.to eletriptan-20mg, 40mg"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Diclofenac potassium"
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+
+                        android:text=" 	25mg, 50mg"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Smatriptan (as succinate ) 50mg +\n Naproxen sodium 550mg tablets"
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+</ScrollView>

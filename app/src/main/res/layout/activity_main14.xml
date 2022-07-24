@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity14">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WHAT IS VERICOSE VEINS?"
+            android:background="@drawable/border"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textColor="#11209F"/>
+
+        <TextView
+            android:id="@+id/vercose_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:padding="12dp"
+            android:text="Varicose veins, also known as varicoses or varicosities, occur when your veins become enlarged, dilated, and overfilled with blood. Varicose veins typically appear swollen and raised, and have a bluish-purple or red color. They are often painful.\n\n
+
+The condition is very common, especially in women. Around 25 percent of all adults have varicose veins. In most cases, varicose veins appear on the lower legs."
+            android:textColor="#FF0F1708" />
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="TREATMENTS"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="233dp"
+            android:layout_below="@+id/vercose_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/vercose_img"
+            android:src="@drawable/vercose_vein" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vercose_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:id="@+id/vercose_cauesH"
+            android:text="causes of vercose viens"
+            android:textAllCaps="true"
+            android:textColor="#11209F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/causes_vercose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vercose_cauesH"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="4dp"
+
+            android:padding="5dp"
+            android:text="* Pregnancy\n* Menopause\n* Age over 50\n* Standing for over period of time.\n* Obesity\n* Inherit from family."
+            android:textColor="#FF0F1708" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAllCaps="true"
+            android:background="@drawable/border"
+            android:layout_below="@+id/causes_vercose"
+            android:layout_height="wrap_content"
+            android:id="@+id/symptons"
+            android:text="Symptoms of vercose viens"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:textColor="#11209F"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/symptons_matter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="4dp"
+            android:padding="12dp"
+            android:text="Primary notices are\n\n* Misshapen veins, pain,swelling, Heavyness, Achiness.\n* Discolouring, Bleeding , Chance of Ulcers."
+            android:textColor="#FF0F1708" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/symptons_matter"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:id="@+id/testforvercose"
+            android:textSize="19dp"
+            android:text="tests for diagnosing vercose veins"
+            android:textAllCaps="true"
+            android:textColor="@color/heading" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/testforvercose"
+            android:lineSpacingExtra="2sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/just_border"
+            android:padding="12dp"
+            android:text="* VENOGRAM - your doctor injects a special dye into your legs and takes X-rays of the area. The dye appears on the X-rays, giving your doctor a better view of how your blood is flowing\n\n* ULTRASOUND TEST - Your doctor may also want to do an ultrasound to check your blood flow."
+            android:textColor="@color/contentcolor" />
+    </RelativeLayout>
+
+</ScrollView>

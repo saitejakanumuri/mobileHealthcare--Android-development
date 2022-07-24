@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TREATMENT FOR DIABETES"
+            android:layout_marginTop="156dp"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:textColor="@color/heading"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="199dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13sp"
+                    android:background="@drawable/border"
+                    android:text="FOR TYPE 1 DIABETES"
+                    android:textColor="@color/heading"
+                    android:textSize="19dp" />
+            </TableRow>
+        </TableLayout>
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="456dp"
+            android:layout_below="@+id/table"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:scrollbars="horizontal|vertical">
+
+            <TableLayout
+                android:id="@+id/tlGridTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/just_border"
+                >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="DRUG NAME"
+
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:padding="12dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_marginEnd="12sp"
+                        android:padding="12dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="DRUG STRENGTH"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:padding="12dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/lineborder"
+                        android:text="TYPE"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Insulin glargine inj."
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Each vial/cartridge contains lantus insulin glargine soln for inj-100 IU/ml "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="injection"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizontalView"
+            android:layout_margin="19dp"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:text="FOR TYPE 2 DIABETES"
+            android:textColor="@color/heading"
+            android:textSize="18dp" />
+          <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+              android:layout_marginBottom="73dp"
+            android:background="@drawable/just_border"
+            android:layout_below="@+id/type2"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:fillViewport="true">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="73dp"
+                android:layout_height="wrap_content">
+                <TableRow android:orientation="vertical"
+                    android:background="@drawable/lineborder">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="TYPES OF DRUG"
+                        android:padding="12dp"
+                        android:textStyle="bold"
+                        android:textSize="23dp"
+                        android:textColor="@color/heading"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="HOW THEY WORKS"
+                        android:textStyle="bold"
+                        android:textSize="23dp"
+                        android:textColor="@color/heading"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="MEDICINES"
+                        android:textStyle="bold"
+                        android:textSize="23dp"
+                        android:textColor="@color/heading"/>
+                </TableRow>
+                <TableRow android:orientation="vertical"
+                    android:background="@drawable/lineborder">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Alpha-glucosidase inhibitors"
+
+                        android:padding="12dp"
+                        android:textColor="@color/contentcolor"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Slow your body’s breakdown of sugars and starchy foods"
+                        android:textColor="@color/contentcolor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Acarbose (Precose) and miglitol (Glyset) 50mg/100mg"
+                        android:textColor="@color/contentcolor"/>
+                </TableRow>
+                <TableRow android:orientation="vertical"
+                    android:background="@drawable/lineborder">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Biguanides"
+
+                        android:padding="12dp"
+                        android:textColor="@color/contentcolor"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Reduce the amount of glucose your liver makes"
+                        android:textColor="@color/contentcolor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Metformin (Glucophage) 500mg"
+                        android:textColor="@color/contentcolor"/>
+                </TableRow>
+                <TableRow android:orientation="vertical"
+                    android:background="@drawable/lineborder">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="DPP-4 inhibitors"
+
+                        android:padding="12dp"
+                        android:textColor="@color/contentcolor"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Improve your blood sugar without making it drop too low"
+                        android:textColor="@color/contentcolor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Linagliptin (Tradjenta), saxagliptin (Onglyza), and sitagliptin (Januvia)"
+                        android:textColor="@color/contentcolor"/>
+                </TableRow>
+                <TableRow android:orientation="vertical"
+                    android:background="@drawable/lineborder">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Glucagon-like peptides"
+
+                        android:padding="12dp"
+                        android:textColor="@color/contentcolor"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text=" Change the way your body produces insulin"
+                        android:textColor="@color/contentcolor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="Dulaglutide (Trulicity), exenatide (Byetta), and liraglutide (Victoza)"
+                        android:textColor="@color/contentcolor"/>
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</ScrollView>

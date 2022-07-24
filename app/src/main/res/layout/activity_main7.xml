@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical|horizontal"
+    tools:context=".MainActivity7">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="TREATMENTS"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:contentDescription="psoriasis_image"
+            android:src="@drawable/gec_img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="@font/impact"
+            android:text="SR Gudlavalleru engineering college"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="What is hepatitis A?"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/drugtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:padding="7dp"
+            android:text="Hepatitis refers to inflammation of the liver caused by exposure to toxins, alcohol misuse, immune diseases, or infection.Hepatitis A is a form of the disease caused by the hepatitis A virus (HAV).\n \nA hepatitis A infection usually goes away on its own.\n\nThis is an acute (short-term) type of hepatitis, which usually requires no treatment."
+            android:textColor="#FF0F1708" />
+
+        <ImageView
+            android:id="@+id/hepatitis_image"
+            android:layout_width="255dp"
+            android:layout_height="215dp"
+            android:layout_below="@+id/drugtext"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/hepatitis_image" />
+
+        <TextView
+            android:id="@+id/drugquestion"
+            android:layout_below="@+id/hepatitis_image"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="WHAT ARE causes of hepatitis-A?"
+            android:textAllCaps="true"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/causes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/drugquestion"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="3dp"
+            android:paddingStart="11dp"
+            android:text="* People develop a hepatitis A infection after contracting HAV. This virus is typically transmitted by ingesting food or liquid contaminated with fecal matter that contains the virus.\n* eating food prepared by someone with the hepatitis A virus\n* eating food handled by preparers who don’t follow strict hand-washing routines before touching food that you eat\n* eating sewage-contaminated raw shellfish\n* having sex with someone who has the hepatitis A virus\n* drinking polluted water\n* coming in contact with hepatitis A-infected fecal matter"
+            android:textColor="@color/contentcolor" />
+
+        <TextView
+            android:id="@+id/symptons_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/causes"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:text="SYMPTOMS"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/symptons_hepatitis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_heading"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="5dp"
+            android:padding="5dp"
+             android:text="* flu-like symptoms (fever, fatigue, body aches)\n* abdominal pain (especially in the right upper quadrant)\n* light-colored stool\n* dark urine\n* loss of appetite\n* unexplained weight loss\n* jaundice (yellowing of skin or eyes)"
+            android:textColor="#FF0F1708" />
+
+        <TextView
+            android:id="@+id/hepatitis_statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_hepatitis"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="statistics about hepatitis-A?"
+            android:textAllCaps="true"
+            android:textColor="@color/heading"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/statistics_hepetitis_i"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/hepatitis_statistics"
+            android:src="@drawable/hepatitis_casesa" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/statistics_hepetitis_i"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="2dp"
+            android:padding="8dp"
+            android:text="* Over years cases of hepititisA were decreasing\n* Mostly affected ages were below 9years(47%) and teenagers(12-19) 39% remaining are of other age groups."
+            android:textColor="@color/contentcolor" />
+    </RelativeLayout>
+</ScrollView>

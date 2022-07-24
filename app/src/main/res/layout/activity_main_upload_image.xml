@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".MainActivityUploadImage">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-223dp"
+        android:src="@drawable/gec_img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:text="SR Gudlavalleru engineering college"
+        android:textSize="20dp"
+        android:fontFamily="@font/impact"
+        android:layout_marginTop="110dp"/>
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:hint="ENTER DESCRIPTION"
+        android:textColor="#9C27B0"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="351dp"
+        android:layout_height="278dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="227dp"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="292dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!--Button for choosing image from gallery-->
+
+        <!--Button for uploading image-->
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_weight="1"
+            android:text="choose image" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload image" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    tools:context=".MainActivity17">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="TREATMENTS"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:layout_alignParentTop="true"
+            android:contentDescription="gec_image"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:id="@+id/clg_name"
+            android:textColor="#000000"
+            android:background="@drawable/just_border"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22sp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clg_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="WHAT IS MIGRANE?"
+            android:textColor="#11209F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/drugtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:padding="7dp"
+            android:text="@string/string222"
+            android:textColor="#FF0F1708"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/psoriasis_img"
+            android:layout_width="255dp"
+            android:layout_height="215dp"
+            android:layout_below="@+id/drugtext"
+            android:layout_marginStart="73dp"
+            android:cropToPadding="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/migrane" />
+        <TextView
+            android:id="@+id/drugquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/psoriasis_img"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text="WHAT ARE causes of migrane?"
+            android:textAllCaps="true"
+            android:textColor="@color/heading"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/causes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/drugquestion"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:paddingStart="13dp"
+            android:text="condition is due to “abnormal” brain activity that affects nerve signaling, and chemicals and blood vessels in the brain.\n\nThere are also many migraine triggers that are continually reported, including:\n\n
+* bright lights\n
+* severe heat or weather\n
+* dehydration\n
+* changes in barometric pressure\n
+* excess stress\n
+* loud sounds\n
+* intense physical activity\n
+* skipping meals\n
+* changes in sleep patterns\n
+* use of certain medications, like oral contraceptives or nitroglycerin\n
+* unusual smells\n
+* certain foods\n
+* smoking\n
+* alcohol use\n
+* traveling\n
+"
+            android:textColor="#FF0F1708"
+            android:textSize="17dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/causes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/symptons"
+            android:background="@drawable/border"
+            android:text="SYMPTOMS"
+            android:textColor="@color/heading"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/symptons_matter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="5dp"
+            android:padding="12dp"
+            android:textSize="17dp"
+            android:paddingStart="5dp"
+            android:text="Migraine symptoms may begin 1 to 2 days before the headache itself. This is known as the prodrome stage. \n\n
+* food cravings\n
+* depression\n
+* fatigue or low energy\n
+* frequent yawning\n
+* hyperactivity\n
+* irritability\n
+* neck stiffness\n"
+            android:textColor="@color/contentcolor" />
+
+    </RelativeLayout>
+</ScrollView>

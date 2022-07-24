@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:id="@+id/clg_name"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/clg_name"
+            android:layout_height="wrap_content"
+            android:text="WHAT IS DIABETES?"
+            android:layout_marginTop="44dp"
+            android:id="@+id/disease_heading"
+            android:fontFamily="@font/latinwide"
+            android:textSize="19dp"
+            android:background="@drawable/border"
+            android:textStyle="bold"
+            android:textColor="@color/heading"/>
+
+        <TextView
+            android:id="@+id/diasease_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disease_heading"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:padding="9dp"
+            android:text="Diabetes: Usually refers to diabetes mellitus or, less often, to diabetes insipidus.\n\n Diabetes mellitus and diabetes insipidus share the name diabetes because they are both conditions characterized by excessive urination (polyuria).\n\nhe two main types of diabetes mellitus -- insulin-requiring type 1 diabetes and adult-onset type 2 diabetes\n\n
+* Type 1 diabetes is an autoimmune disease. The immune system attacks and destroys cells in the pancreas.\n\n * Type 2 diabetes occurs when your body becomes resistant to insulin, and sugar builds up in your blood."
+            android:textColor="@color/contentcolor"
+             />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:cropToPadding="true"
+            android:layout_height="400dp"
+            android:layout_below="@+id/diasease_intro"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="0dp"
+            android:id="@+id/risktable"
+            android:src="@drawable/diabetes_image"/>
+
+        <TextView
+            android:id="@+id/symptons_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/risktable"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="SYMPTOMS"
+            android:textColor="#11209F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/symptons_matter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="2dp"
+            android:padding="9dp"
+            android:text="Type 1 diabetes\n\n
+Symptoms of type 1 diabetes can include:\n\n* extreme hunger\n
+* increased thirst\n
+* unintentional weight loss\n
+* frequent urination\n
+* blurry vision\n
+* tiredness\n\nType 2 diabetes\n\n
+Symptoms of type 2 diabetes can include:\n\n
+
+* increased hunger\n
+* increased thirst\n
+* increased urination\n
+* blurry vision\n
+* tiredness\n
+* sores that are slow to heal\n"
+            android:textColor="#FF0F1708"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/homeremedies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_matter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="RISK FACTORS"
+            android:textColor="@color/heading"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homeremedies"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="4dp"
+            android:padding="5dp"
+            android:text="If you are\n\n* are overweight\n
+* are age 45 or older\n
+* have a parent or sibling with the condition\n
+* aren’t physically active\n
+* have had gestational diabetes\n
+* have prediabetes\n
+* have high blood pressure, high cholesterol, or high triglycerides\n"
+            android:textColor="@color/contentcolor" />
+
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="MEDICINES"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

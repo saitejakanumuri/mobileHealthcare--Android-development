@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity20">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:id="@+id/heartattack"
+            android:text="WHAT IS HEART ATTACK?"
+            android:background="@drawable/border"
+            android:textColor="@color/heading"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heartattack"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:textSize="18dp"
+            android:paddingBottom="3dp"
+            android:text="\t\tHeart attacks — also called myocardial infarctions — are very common. In fact, one happens every 40 secondsTrusted Source, according to the Centers for Disease Control and Prevention (CDC).\n\nWhen your heart isn’t getting the blood and oxygen it needs to function properly, it can put you at a higher risk of heart failure and other serious complications.
+
+"
+            android:textColor="#FF0F1708" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/heartattackimg"
+            android:layout_marginEnd="0dp"
+            android:layout_below="@+id/content"
+            android:src="@drawable/cardiac_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heartattackimg"
+            android:id="@+id/symptons_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="SYMPTOMS"
+            android:textColor="#11209F"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/symptons_matter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="4dp"
+            android:text="* Chest Pain\n* Shortness of Breath\n* Pain in your arm,shoulder,neck\n* Nausea\n* Sweating\n* fatigue."
+            android:textColor="@color/contentcolor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPES OF HEART ATTACKS?"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/symptons_matter"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:id="@+id/type2"
+            android:textColor="#11209F"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/type2"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:textSize="17dp"
+            android:fontFamily="serif"
+            android:paddingStart="23dp"
+            android:layout_centerHorizontal="true"
+            android:lineSpacingExtra="4dp"
+            android:background="@drawable/just_border"
+            android:text="TYPE 1:-  heart attacks are where plaque on the inner wall of the artery ruptures and releases cholesterol and other substances into the bloodstream. This can then form a blood clot and block the artery.\n\nTYPE-2:-  heart attacks the heart does not receive as much oxygen-rich blood as it needs, but there is not a complete blockage of an artery."
+            android:textColor="@color/contentcolor" />
+
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="MEDICINES"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

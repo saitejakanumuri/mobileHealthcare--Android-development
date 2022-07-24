@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity22">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:id="@+id/heartattack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="WHAT IS arthritis?"
+            android:textColor="@color/heading"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heartattack"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:padding="12dp"
+            android:paddingBottom="3dp"
+            android:text="Arthritis is an inflammation of the joints. It can affect one joint or multiple joints. There are more thanTrusted Source 100 different types of arthritis, with different causes and treatment methods\n\nOsteoarthritis (OA) is the most common type of arthritisTrusted Source in the United States. Other common typesTrusted Source include:\n\n* rheumatoid arthritis (RA)
+\n* psoriatic arthritis (PsA)
+\n* gout"
+            android:textColor="@color/contentcolor"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/heartattackimg"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@+id/content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/arthitis" />
+
+        <TextView
+            android:id="@+id/symptons_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heartattackimg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="SYMPTOMS"
+            android:textColor="#11209F"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/symptons_matter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/just_border"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="4dp"
+            android:padding="12dp"
+            android:text="* clicking or popping with bending
+\n* muscle weakness around the joint
+\n* instability or buckling of the joint
+\n* bony growths in the fingers
+\n* grating or scraping feeling in the knees
+\n* headaches"
+            android:textColor="@color/contentcolor"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symptons_matter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:fontFamily="monospace"
+            android:text="HOW IT IS DIAGNOSED ?"
+            android:textColor="#11209F"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/type2"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:textSize="17dp"
+            android:fontFamily="serif"
+            android:paddingStart="23dp"
+            android:layout_centerHorizontal="true"
+            android:lineSpacingExtra="4dp"
+            android:background="@drawable/just_border"
+            android:text="* X-ray\n\n* CT scan\n\n* MRI"
+            android:textColor="@color/contentcolor" />
+
+        <Switch
+            android:id="@+id/displayM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/another_border"
+            android:text="MEDICINES"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

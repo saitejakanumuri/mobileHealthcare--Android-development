@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/gec_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="SR Gudlavalleru engineering college"
+            android:textSize="22dp"
+            android:fontFamily="@font/impact"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="anti thyroid treatments"
+            android:textAllCaps="true"
+            android:layout_marginTop="155sp"
+            android:layout_marginLeft="53dp"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="@color/heading"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/table"
+            android:layout_marginTop="190sp">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp"
+                    android:layout_marginStart="13sp"
+                    android:text="THIONOIDS \n\t\t(childs,adults, including pregnant people)"/>
+            </TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:background="@drawable/just_border"
+                android:layout_margin="22dp"
+                android:text="\t It includes the drugs methimazole (MMI) and propylthiouracil (PTU).\n\nThionamides have been used to treat hyperthyroidism for decades, and are considered safe."/>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp"
+                    android:layout_marginStart="13dp"
+                    android:textAllCaps="true"
+                    android:text="Radioactive iodine\t [rai]"/>
+            </TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:text="\tSide effectsTrusted Source can occur with RAI treatment, especially at higher doses. These include neck pain, nausea, and dry mouth. RAI treatment at high doses can also impact fertility."
+                android:textColor="@color/purple_700"
+                android:background="@drawable/just_border"
+                android:textSize="19dp" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp"
+                    android:textAllCaps="true"
+                    android:layout_marginStart="13dp"
+                    android:text="Surgery   [thyroidectomy]"/>
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/just_border"
+                android:paddingStart="5dp"
+                android:text="During a thyroidectomy, all or part of your thyroid gland is removed.\n\nIf your thyroid gland is fully removed, you will need to take thyroid hormone supplements for the rest of your life. \n\nThe drug levothyroxine (brand names Levoxyl, Synthroid, and others) is a synthetic version of the thyroid’s T4 hormone, and is usually prescribed in pill form."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+        </TableLayout>
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="456dp"
+
+            android:layout_marginBottom="62dp"
+            android:layout_below="@+id/table"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:scrollbars="horizontal|vertical">
+
+            <TableLayout
+                android:id="@+id/tlGridTable"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="73dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/lineborder"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="DRUG NAME"
+                        android:layout_marginEnd="12dp"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:padding="12dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_marginEnd="12sp"
+                        android:padding="12dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="DRUG STRENGTH"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:padding="12dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="TYPE"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Methimazole Tablet "
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="5mg/10mg  "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text=" 	Cinacalet (as HCl) Tablet 30/60/90mg"
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Each film coated tablet contains; \ncinacalcet hydrochloride-30mg, 60mg, 90mg "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/lineborder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 	Lenvatinib hard gelatin capsule 4mg/10mg "
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+
+                        android:text="Each capsule contains; \ni)lenvatinib mesylate 4.90mg eq.to lenvatinib 4mg, excipients q.s \nii)lenvatinib mesylate 12.25mg eq.to lenvatinib 10mg, excipients q.s "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="TABLET"
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+</ScrollView>

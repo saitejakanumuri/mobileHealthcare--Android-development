@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitydemo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-223dp"
+        android:contentDescription="gec_college"
+        android:src="@drawable/gec_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:id="@+id/clg_name"
+        android:fontFamily="@font/impact"
+        android:text="SR Gudlavalleru engineering college"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/ll1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_upload_cloud_icon"
+            android:id="@+id/uplaodToCloud"
+            android:contentDescription="UPLOAD IMAGES" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_folder_icon"
+            android:layout_marginStart="12dp"
+            android:id="@+id/folder"
+            android:contentDescription="FOLDER" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginStart="12dp"
+            android:id="@+id/disesase_medicines"
+            android:src="@mipmap/ic_medical_icon"
+            android:contentDescription="DISEASES-MEDICINES" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upload images"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="view uplaods"
+            android:layout_marginStart="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About diseases"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clg_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-black"
+        android:text="CHOOSE ANY ACTION"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+    <include
+        layout="@layout/trademark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>

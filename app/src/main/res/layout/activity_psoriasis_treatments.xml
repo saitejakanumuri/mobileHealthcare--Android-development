@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heading"
+        android:textStyle="bold"
+        android:textSize="34dp"
+        android:background="@drawable/lineborder"
+        android:layout_marginTop="44dp"
+        android:fontFamily="monospace"
+        android:text="TREATMENTS FOR PSORIASIS"/>
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dip"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="456dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dip"
+            android:scrollbars="horizontal|vertical">
+
+            <TableLayout
+                android:id="@+id/tlGridTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/just_border">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lineborder">
+
+                    <TextView
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="MEDICINES"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="description"
+                        android:layout_marginStart="31dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/heading"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="CONDITIONS"
+
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Biologics"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+
+                        android:text="alters your immune system and prevents interactions between your immune system and inflammatory pathways. "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="central nervous system issues/cancer diseases."
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Retinoids"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Retinoids reduce skin cell production. "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text=" risk of possible birth defects in unborn children. "
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Cyclosporine"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+
+                        android:text="Cyclosporine (Sandimmune) decreases the immune system’s response. "
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text=" Potential side effects include kidney problems and high blood pressure."
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@drawable/lineborder"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/r51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Methotrexate"
+                        android:textAllCaps="true"
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="12dp"
+                        android:text=" methotrexate suppresses the immune system."
+                        android:textColor="@color/contentcolor" />
+
+                    <TextView
+                        android:id="@+id/r53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="can cause serious side effects include liver damage and\n reduced production of red and white blood cells."
+                        android:textColor="@color/contentcolor" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

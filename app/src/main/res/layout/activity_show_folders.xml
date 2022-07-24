@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/row_selector"
+    tools:context=".Filesview">
+
+    <LinearLayout
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:id="@+id/folderdescribe"
+            android:fontFamily="@font/lucida_dark"
+            android:text=" CLICK ANY ITEM TO VIEW "
+            android:padding="4dp"
+            android:textColor="@color/yellow"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lsitview12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/just_border" />
+    </LinearLayout>
+
+ <!--   <LinearLayout
+        android:id="@+id/deletell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/foldername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:backgroundTint="@color/angelina"
+            android:cursorVisible="true"
+            android:focusableInTouchMode="true"
+            android:hint="Enter filename for delete"
+            android:textColor="@color/angelina" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/deletefilename"
+            android:backgroundTint="@color/angelina"
+            android:text="delete file" />
+    </LinearLayout> -->
+</RelativeLayout>

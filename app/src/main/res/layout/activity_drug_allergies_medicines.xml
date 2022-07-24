@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-223dp"
+                android:src="@drawable/gec_img" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:text="SR Gudlavalleru engineering college"
+                android:textSize="22dp"
+                android:fontFamily="@font/impact"
+                android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TREATMENTS"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginTop="152dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#11209F"
+            android:textSize="20dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp"
+                    android:layout_marginStart="13sp"
+                    android:text="ANTIHISTAMINES"/>
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/just_border"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:layout_margin="22dp"
+                android:text=" An antihistamine blocks the production of histamine and may help calm these symptoms of an allergic reaction.\n\n Antihistamines come as pills, eyes drops, creams, and nasal sprays."/>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp"
+                    android:textAllCaps="true"
+                    android:layout_marginStart="13dp"
+                    android:text="Corticosteroids"/>
+            </TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/just_border"
+                android:layout_margin="22dp"
+                android:text="A drug allergy can cause swelling of your airways and other serious symptoms. Corticosteroids can help reduce the inflammation that leads to these problems.\n\nThey also come as powder or liquid for use in an inhaler and liquid for injection or use in a nebulizer."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textSize="19dp"
+                    android:textAllCaps="true"
+                    android:layout_marginStart="13dp"
+                    android:text="Bronchodilators"/>
+            </TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/just_border"
+                android:layout_margin="22dp"
+                android:text="If your drug allergy causes wheezing or coughing, your doctor might recommend a bronchodilator. This drug will help open your airways and make breathing easier. \n\nBronchodilators come in liquid and powder form for use in an inhaler or nebulizer."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="900dp"
+            android:textAllCaps="true"
+            android:paddingStart="4dp"
+            android:textColor="@color/contentcolor"
+            android:background="@drawable/another_border"
+            android:text="NOTE:- If you have any symptoms of a drug allergy or any serious side effects from a medication you’re taking, talk to your doctor right away."/>
+    </RelativeLayout>
+</ScrollView>
